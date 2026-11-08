@@ -1,0 +1,17 @@
+name: decision_coin
+publish_to: none
+description: Piloufas — A royal 24k gold cinematic decision coin & intuition mirror.
+version: 1.0.0+1
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.3.2
+  audioplayers: ^6.1.0
+  sensors_plus: ^7.1.1
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/audio/
+    - assets/images/
